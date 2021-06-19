@@ -1,8 +1,9 @@
 <?php
 
-use app\controladores\ControladorUsuario;
 
-require_once "config/autoload.php";
+require_once 'Model/conexion.php';
+require_once 'Model/autocarga.php';
+
 
 ?>
     <h1>Registrar Usuario</h1>
